@@ -1,3 +1,9 @@
+
+This project contains implementations for example Programs in Algorithms In C++
+(THIRD EDITION). 
+
+---
+
      ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
     '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
     |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
