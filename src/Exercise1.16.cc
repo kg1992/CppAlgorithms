@@ -9,7 +9,7 @@ using namespace std;
 int main(int argc, char** argv) {
     int N = 10000;
     if( argc >= 2 ) N = std::atoi(argv[1]);
-    int i, j, p, q, u, v, b, *id = new int[N], *sz = new int[N];
+    int i, j, p, q, u, v, *id = new int[N], *sz = new int[N];
     for(i = 0; i < N; i++) { id[i] = i; sz[i] = 1; }
     while(cin >> p >> q){
         for( i = p; i != id[i]; i = id[i]);

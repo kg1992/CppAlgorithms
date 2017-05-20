@@ -1,5 +1,6 @@
 // Quick-find solution to connectivity problem
 #include <iostream>
+#include <cstdlib>
 #include "Helper.h"
 using namespace std;
 int main(int argc, char** argv) {

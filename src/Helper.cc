@@ -1,26 +1,12 @@
-#include <iostream>
-#include <iterator>
-#include <vector>
+#include "Helper.h"
 #include <stack>
 
-namespace Helper {
-    template<typename iterator_type>
-    static std::ostream& Print(std::ostream& o, iterator_type beg, iterator_type end)
-    {
-        const char delim[] = ", ";
-        while( beg != end ){
-            o << *beg++;
-            if( beg != end )
-                o << delim;
-        }
-        return o;
-    }
-    
-    static std::ostream& PrintTree(std::ostream& o, int* a, int count)
+namespace Helper
+{
+    std::ostream& PrintTree(std::ostream& o, int* a, int count)
     {
         // open list
-        auto ol = std::stack<int>();
-        auto depths = std::stack<int>();
+        std::stack<int> ol = std::stack<int>(), depths = std::stack<int>();
         int i;
         
         // collect roots
@@ -50,5 +36,7 @@ namespace Helper {
             for( int j = 0; j < d; ++j ) o << " ";
             o << "└" << i << std::endl;
         }
+        
+        return o;
     }
 }
