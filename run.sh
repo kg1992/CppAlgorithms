@@ -14,10 +14,18 @@ function DoChapter1()
     ./bin/Exercise1.16 10 < ./in/1.connectivity.txt
 }
 
+function DoChapter2()
+{
+    make 2
+    
+    echo == Program2.1 ==================================================================
+    ./bin/Program2.1
+}
+
 if [ "$1" == "1" ]
 then
     DoChapter1
 elif [ "$1" == "2" ]
 then
-    echo hi
+    DoChapter2
 fi
