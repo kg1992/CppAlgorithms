@@ -1,6 +1,6 @@
 1: Program1.1 Program1.2 Program1.3 Program1.4 Exercise1.16
 2: Program2.1 Program2.2
-3: Program3.2 Program3.5
+3: Program3.2 Program3.5 Program3.7 Program3.8
 
 cc= g++
 cflags=-std=c++11 -O -Wall -Wextra -Werror -ansi -pedantic -c

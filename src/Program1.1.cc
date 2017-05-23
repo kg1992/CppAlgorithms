@@ -15,5 +15,5 @@ int main(int argc, char** argv) {
             if( id[i] == t ) id[i] = id[q];
         cout << " " << p << " " << q << endl;
     }
-    Helper::Print(cout, id, id+N); cout << endl;
+    CppAlgorithms::Print(cout, id, id+N); cout << endl;
 }

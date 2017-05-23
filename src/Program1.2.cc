@@ -15,6 +15,6 @@ int main(int argc, char** argv) {
         id[i] = j;
         cout << " " << p << " " << q << endl;
     }
-    Helper::Print(cout, id, id+N); cout << endl;
-    Helper::PrintTree(cout, id, N); cout << endl;
+    CppAlgorithms::Print(cout, id, id+N); cout << endl;
+    CppAlgorithms::PrintTree(cout, id, N); cout << endl;
 }

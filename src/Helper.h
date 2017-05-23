@@ -1,9 +1,9 @@
 #include <iostream>
 #include <iterator>
 
-namespace Helper {
+namespace CppAlgorithms {
     template<typename iterator_type>
-    static std::ostream& Print(std::ostream& o, iterator_type beg, iterator_type end)
+    std::ostream& Print(std::ostream& o, iterator_type beg, iterator_type end)
     {
         const char delim[] = ", ";
         while( beg != end ){

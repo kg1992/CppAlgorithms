@@ -1,7 +1,7 @@
 #include "Helper.h"
 #include <stack>
 
-namespace Helper
+namespace CppAlgorithms
 {
     std::ostream& PrintTree(std::ostream& o, int* a, int count)
     {

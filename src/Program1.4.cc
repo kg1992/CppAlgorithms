@@ -18,7 +18,7 @@ int main(int argc, char** argv) {
         else { id[j] = i; sz[i] += sz[j]; }
         cout << " " << p << " " << q << endl;
     }
-    Helper::Print(cout, id, id+N); cout << endl;
-    Helper::Print(cout, sz, sz+N); cout << endl;
-    Helper::PrintTree(cout, id, N); cout << endl;
+    CppAlgorithms::Print(cout, id, id+N); cout << endl;
+    CppAlgorithms::Print(cout, sz, sz+N); cout << endl;
+    CppAlgorithms::PrintTree(cout, id, N); cout << endl;
 }

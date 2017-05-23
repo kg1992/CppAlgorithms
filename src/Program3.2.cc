@@ -23,7 +23,7 @@ int main(int argc, char* argv[])
         m1 += ((float) x)/N;
         m2 += ((float)x*x)/N;
     }
-    cout << "items : "; Helper::Print(cout, items.begin(), items.end()); cout << endl;
+    cout << "items : "; CppAlgorithms::Print(cout, items.begin(), items.end()); cout << endl;
     cout << "     Avg.: " << m1 << endl;
     cout << "Std. dev.: " << sqrt(m2-m1*m1) << endl;
     return 0;
